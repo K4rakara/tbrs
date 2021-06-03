@@ -6,6 +6,9 @@ extern crate failure;
 extern crate serde;
 extern crate serde_json;
 
+pub mod item;
+pub mod board;
+
 use std::collections::HashMap;
 use std::env;
 use std::fmt::{ self, Debug };
